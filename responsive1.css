@@ -1,0 +1,35 @@
+.seperate {
+  margin-left: 0;
+}
+.inputflex > .inputleft {
+  min-width: 382px;
+  min-height: 129.8px;
+  margin-left: 15px;
+}
+.inputflex > .inputright {
+  min-width: 382px;
+  min-height: 129.8px;
+}
+.mainBottomflex {
+  position: relative;
+  flex-wrap: wrap;
+  margin-left: 15px;
+}
+.resturant,
+.destination,
+.hotel,
+.healthcare,
+.automation {
+  max-width: 205px;
+  max-height: 170px;
+  margin: 10px 10px;
+}
+.how-it-works {
+  flex-wrap: wrap;
+  margin-right: 40px;
+}
+.how-it-works > .what-to-do,
+.what-you-want,
+.explore-amazing-place {
+  width: 30%;
+}

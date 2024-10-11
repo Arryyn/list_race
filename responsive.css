@@ -1,0 +1,126 @@
+.navflex {
+  flex-wrap: wrap;
+  border-bottom: 2px solid #f6f8fa;
+  max-height: 100px;
+}
+.navflex > .navright {
+  margin-left: 0;
+}
+.navflex > .navright > span {
+  border-left: none;
+}
+.navflex > .navleft div {
+  border-right: none;
+}
+.mainSection > h1 {
+  text-align: center;
+  font-size: 20px;
+}
+.navBar {
+  width: 100%;
+}
+.navBar > a {
+  text-align: center;
+  margin-left: 20px;
+}
+.seperate {
+  margin-left: 0;
+  margin-right: 0;
+}
+.seperate a:hover {
+  color: red;
+}
+.banner-hero > .mainhero {
+  width: 100%;
+}
+.banner-hero > .mainhero > h2 {
+  font-size: 24px;
+}
+.inputflex {
+  flex-wrap: wrap;
+}
+.inputflex > .inputleft {
+  min-width: 382px;
+  min-height: 129.8px;
+  border-bottom: 1px solid #edeff1;
+}
+.inputflex > .inputright > img {
+  margin-left: 22px;
+}
+.inputflex > .inputright {
+  min-width: 382px;
+  min-height: 129.8px;
+}
+.inputflex > .inputsearch {
+  min-width: 140px;
+  margin: 0;
+}
+.mainBottomflex {
+  position: static;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-top: 40px;
+  margin-bottom: 90px;
+}
+.resturant,
+.destination,
+.hotel,
+.healthcare,
+.automation {
+  max-width: 205px;
+  max-height: 170px;
+  margin: 8px 0;
+}
+.how-it-works {
+  flex-direction: column;
+  margin-right: 40px;
+}
+.how-it-works > .what-to-do,
+.what-you-want,
+.explore-amazing-place {
+  max-width: 90%;
+}
+.flex,
+.flex1 {
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+.exploreSection .single-explore-image {
+  margin-right: 0;
+}
+.imageFlex {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.imageFlex > span {
+  margin-right: 0;
+  margin-bottom: 1cm;
+}
+.blogflex {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.blogSection {
+  margin-right: 0;
+}
+.footerSection > input {
+  max-width: 300px;
+  max-height: 60px;
+}
+.footerSection > div > input {
+  max-width: 180px;
+  max-height: 60px;
+  margin-top: 30px;
+}
+.rowEnd {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  position: static;
+  padding-top: 20px;
+}
+.rowEnd > span {
+  padding-left: 0;
+  margin-right: 30px;
+}
